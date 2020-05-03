@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "ambup",
-    "slug": "ambup",
+    "name": "UI Kitten Login Template",
+    "slug": "react-native-template-ui-kitten-login",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "version": "0.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/images/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -23,6 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "UI Kitten Template Login Screens",
+    "githubUrl": "https://github.com/elgsantos/react-native-template-ui-kitten-login"
   }
 }

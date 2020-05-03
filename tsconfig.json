@@ -1,12 +1,22 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noResolve": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": true,
     "jsx": "react-native",
     "lib": ["dom", "esnext"],
-    "moduleResolution": "node",
+    "resolveJsonModule": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true,
     "strict": true
-  }
+  },
+  "exclude": [
+    "./node_modules/**/*"
+  ]
 }
